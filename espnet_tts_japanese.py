@@ -14,7 +14,7 @@ class EspnetTtsJapanese:
             self.acoustic_model = f'data/{folder}/train.loss.ave_5best.pth'
             self.acoustic_config = f'data/{folder}/config.yaml'
             self.vocoder = f'data/{folder}/checkpoint-565000steps.pkl'
-        elif model_name == 'jvs001'
+        elif model_name == 'jvs001':
             folder = 'jvs001'
             self.acoustic_model = f'data/{folder}/train.loss.ave_5best.pth'
             self.acoustic_config = f'data/{folder}/config.yaml'
