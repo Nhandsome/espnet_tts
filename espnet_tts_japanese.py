@@ -1,6 +1,9 @@
 
 import time
 import torch
+import gdown
+import zipfile
+import os
 from espnet2.bin.tts_inference import Text2Speech
 from parallel_wavegan.utils import load_model
 
@@ -19,6 +22,7 @@ class EspnetTtsJapanese:
         else:
             raise Exception(f'Not exist model name. : {model_name}')
         
+        self.zip_url = 'https://drive.google.com/uc?id=1SqVpeIMYmAT0qVH5DX_E413buURpKZh8'
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         
     def get_acoustic_model(self):
@@ -55,3 +59,10 @@ class EspnetTtsJapanese:
         print(f"RTF = {rtf:5f}")
         
         return wav
+    
+    def downlaod_data(self):
+        file_name = 'data.zip'
+        gdown.download(self.zip_url, file_name, quite=True)
+        with zipfile.ZipFile(file_name) as model:
+            model.extractall('')
+        os.remove(file_name)
