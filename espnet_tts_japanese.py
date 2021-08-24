@@ -22,7 +22,7 @@ class EspnetTtsJapanese:
         else:
             raise Exception(f'Not exist model name. : {model_name}')
         
-        self.zip_url = 'https://drive.google.com/uc?id=1fcKMI_RzMaoO7qxL-AbuuC9NmeFY6MRO'
+        self.zip_url = 'https://drive.google.com/uc?id=1DnG5FXM6AkeVMVEqL2l_i11-zTIHEGGR'
         if not os.path.exists('data'):
             self.download_data()
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
