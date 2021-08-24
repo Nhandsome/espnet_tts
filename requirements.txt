@@ -1,0 +1,3 @@
+espnet==0.10.0
+parallel_wavegan==0.4.8
+pyopenjtalk
