@@ -1,4 +1,4 @@
-# espnet_tts
+# espnet_tts pre-trained model
 ESPnet TTS(Text-to-speech) model trained with tsukuyomichan and jsut001 dataset
 
   1. モデル
