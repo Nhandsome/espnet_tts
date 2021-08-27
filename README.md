@@ -53,7 +53,7 @@ ESPnet TTS(Text-to-speech) model trained with tsukuyomichan and jsut001 dataset
   - 高道 慎之介さんのJVS Corpus
   - JVS001のparallel100データで、Fine-Tune
 
-# LICENSE
+# 利用規約について
 - コード・モデルに関しては、
   - 研究目的で利用
   - 非商用目的の個人利用
