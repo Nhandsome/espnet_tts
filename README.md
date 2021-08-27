@@ -58,10 +58,10 @@ ESPnet TTS(Text-to-speech) model trained with tsukuyomichan and jsut001 dataset
   - 研究目的で利用
   - 非商用目的の個人利用
 
-が可能ですが、申し訳ございませんが、音声データの二次利用や再配布についてはお断りしております。
+が可能ですが、申し訳ございませんが、二次利用や再配布についてはお断りしております。
 
 
-- 使用データセットに関する利用規約は次を参考してください。
+- 音声コーパス関する利用規約は次を参考してください。
   - [つくよみちゃん Corpus](https://tyc.rei-yumesaki.net/material/corpus/#terms)
   - [JVS Corpus](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus#h.p_OP_G8FT_Kuf4)
   - [JSUT Corpus](https://sites.google.com/site/shinnosuketakamichi/publication/jsut#h.p_YexdnC0CAtY8)
