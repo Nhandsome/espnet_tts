@@ -1,4 +1,3 @@
-
 import time
 import torch
 import gdown
@@ -22,7 +21,7 @@ class EspnetTtsJapanese:
         else:
             raise Exception(f'Not exist model name. : {model_name}')
         
-        self.zip_url = 'https://drive.google.com/uc?id=1WhDv6NZSphau-HJ_W2BHk1PImDHcxKbW'
+        self.zip_url = 'https://drive.google.com/uc?id=1wonlhn4LSj0PE09LrPtBoO_oHm_hPdLz'
         if not os.path.exists('data'):
             self.download_data()
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
